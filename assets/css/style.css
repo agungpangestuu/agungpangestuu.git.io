@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.5);
+  overflow-y: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 10000;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  color: #14213D;
+  display: inline-block;
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 16px 20px;
+  text-transform: uppercase;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+    
+li a:hover:not(#logo) {
+    color: white;
+}
+
+#logo {
+  color: #FCA311;
+  font-family: 'Amatic SC', cursive;
+  font-size: 32px;
+  padding: 0px 50px;
+}    
+
+.promo img{
+    width: 100%;
+    background-size:cover;
+    background-position: top;
+    
+}
+
+div.recomend {
+    position: relative;
+    margin: 20px auto;
+    position: relative;
+    text-align: center;
+    top: 20px;
+} 
+
+div.respon {
+  display: inline-block;
+  height: 120px;
+  margin: 20px;
+  padding-top: 10px;
+  width: 120px;
+  background-color:#466995;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.respon img{
+    width: 70%;
+    padding: 10px;
+}
+
+
+.container{
+  text-align: center;
+  background: url("https://s3.amazonaws.com/nikeinc/assets/69764/Nike_Vapormax_DTN_Direction1_Full_Set_16x9_hd_1600.jpg?1495429541") no-repeat top center;
+    background-size: cover;
+    height: 700px;
+    position:static;
+    top: 80px;
+    width: 100%;
+    
+}
+
+.cover-content {
+    color: aliceblue;
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 30px;
+  width: 70%;
+  padding-top: 400px
+}
+h1 {
+  color: #FFF;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+h2 {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  padding: 20px 10px;
+  color: aliceblue;
+}
+
+h3{
+    color:#14213d;
+    font-family: 'abel',sans-serif;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 50px 0;
+}
+
+h4{
+    color: #FCA311;
+    font-family: 'abel', sans-serif;
+    font-size: :24px;
+    margin: 0 0 50px 0;
+}
+
+p {
+    color:#333;
+    font-family: 'raleway',sans-serif
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn {
+  background-color: #14213D;
+  color: #FFF;
+  font-family: 'Amatic SC', cursive;
+  font-size: 26px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.products {
+  background: #EEEFF1;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.product {
+  display: inline-block;
+  margin: 0px 2% 80px 2%;
+  text-align: center;
+  width: 45%;
+}
+
+.product img {
+  width: 100%;
+    height: 280px;
+}
+
+.blue {
+  color: #14213D !important;
+}
+
+footer {
+    margin-top: 80px;
+    width:100%;
+    height: 60px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+
+
+
